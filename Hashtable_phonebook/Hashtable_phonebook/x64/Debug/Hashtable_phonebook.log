@@ -1,0 +1,26 @@
+﻿  Hashtable_phonebook.cpp
+D:\VS\vs\VC\Tools\MSVC\14.34.31933\include\xstring(2460,19): error C2338: static_assert failed: 'N4910 23.4.3.2 [string.require]/3 requires that the supplied char_traits character type match the string's character type.'
+D:\VS\vs\VC\Tools\MSVC\14.34.31933\include\xmemory(524,1): message : see reference to class template instantiation 'std::basic_string<_Newfirst,std::char_traits<char>,std::allocator<char>>' being compiled
+          with
+          [
+              _Newfirst=std::_List_node<std::string,void *>
+          ]
+D:\VS\vs\VC\Tools\MSVC\14.34.31933\include\xmemory(704,1): message : see reference to class template instantiation 'std::_Normal_allocator_traits<_Alloc>' being compiled
+          with
+          [
+              _Alloc=std::basic_string<std::_List_node<std::string,void *>,std::char_traits<char>,std::allocator<char>>
+          ]
+D:\VS\vs\VC\Tools\MSVC\14.34.31933\include\list(768,1): message : see reference to class template instantiation 'std::allocator_traits<std::basic_string<_Newfirst,std::char_traits<char>,std::allocator<char>>>' being compiled
+          with
+          [
+              _Newfirst=std::_List_node<std::string,void *>
+          ]
+C:\Users\User\source\repos\Hashtable_phonebook\Hashtable_phonebook\Hashtable_phonebook.cpp(10,22): message : see reference to class template instantiation 'std::list<std::string,std::string>' being compiled
+D:\VS\vs\VC\Tools\MSVC\14.34.31933\include\xstring(2464,61): error C2338: static_assert failed: 'The character type of basic_string must be a non-array trivial standard-layout type. See N4910 23.1 [strings.general]/1.'
+D:\VS\vs\VC\Tools\MSVC\14.34.31933\include\list(842,5): error C2535: 'std::list<std::string,std::string>::list(unsigned __int64,const _Alloc &)': member function already defined or declared
+          with
+          [
+              _Alloc=std::string
+          ]
+D:\VS\vs\VC\Tools\MSVC\14.34.31933\include\list(826,5): message : see declaration of 'std::list<std::string,std::string>::list'
+C:\Users\User\source\repos\Hashtable_phonebook\Hashtable_phonebook\Hashtable_phonebook.cpp(20,40): error C2676: binary '[': 'std::list<std::string,std::string>' does not define this operator or a conversion to a type acceptable to the predefined operator

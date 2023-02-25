@@ -1,0 +1,3 @@
+﻿  HashTables.cpp
+C:\Users\User\source\repos\HashTables\HashTables\HashTables.cpp(17,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  HashTables.vcxproj -> C:\Users\User\source\repos\HashTables\x64\Debug\HashTables.exe

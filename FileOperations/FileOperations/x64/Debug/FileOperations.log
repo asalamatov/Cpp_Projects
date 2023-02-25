@@ -1,0 +1,3 @@
+﻿  FileOperations.cpp
+C:\Users\User\source\repos\FileOperations\FileOperations\FileOperations.cpp(51,24): error C2117: 'A': array bounds overflow
+C:\Users\User\source\repos\FileOperations\FileOperations\FileOperations.cpp(51,7): message : see declaration of 'A'
