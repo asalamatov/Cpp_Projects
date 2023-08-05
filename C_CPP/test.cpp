@@ -91,8 +91,8 @@
 // // }
 
     
-// #include <iostream>
-// #include <array>
+#include <iostream>
+#include <array>
 // using namespace std;
 
 // // int main(){
@@ -126,7 +126,7 @@
 // //   return 0;
 // // }
 
-// #include<vector>
+#include<vector>
 // int main(){
 //   vector<int> testVector1;
 //   // testVector1.pop_back(4);
@@ -387,6 +387,7 @@ using namespace std;
 
 
 #include<unordered_map>
+#include<bits/stdc++.h>
 int main(){
   unordered_map<int, string> umap1;
   unordered_map<int, string> umap2 = {
@@ -398,14 +399,14 @@ int main(){
   };
 
   //check
-  unordered_map<int, string>::iterator i = umap2.begin();
-  for(i; i!=umap2.end(); i++){
+  
+  for(unordered_map<int, string>::iterator i = umap2.begin(); i!=umap2.end(); i++){
     cout<<i->first<<": "<<i->second<<endl;
   }
 
   //alter
   umap2[1] = "One";  // works on the video, but not here
-  for(i; i!=umap2.end(); i++){
+  for(unordered_map<int, string>::iterator i = umap2.begin(); i!=umap2.end(); i++){
     cout<<i->first<<": "<<i->second<<endl;
   }
 
