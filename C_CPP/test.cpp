@@ -388,27 +388,27 @@ using namespace std;
 
 #include<unordered_map>
 #include<bits/stdc++.h>
-int main(){
-  unordered_map<int, string> umap1;
-  unordered_map<int, string> umap2 = {
-  {1,"one"},
-  {2,"two"},
-  {3,"three"},
-  {4,"four"},
-  {4,"Four"} //not taken
-  };
+// int main(){
+//   unordered_map<int, string> umap1;
+//   unordered_map<int, string> umap2 = {
+//   {1,"one"},
+//   {2,"two"},
+//   {3,"three"},
+//   {4,"four"},
+//   {4,"Four"} //not taken
+//   };
 
-  //check
-  
-  for(unordered_map<int, string>::iterator i = umap2.begin(); i!=umap2.end(); i++){
-    cout<<i->first<<": "<<i->second<<endl;
-  }
+//   //check
 
-  //alter
-  umap2[1] = "One";  // works on the video, but not here
-  for(unordered_map<int, string>::iterator i = umap2.begin(); i!=umap2.end(); i++){
-    cout<<i->first<<": "<<i->second<<endl;
-  }
+//   for(unordered_map<int, string>::iterator i = umap2.begin(); i!=umap2.end(); i++){
+//     cout<<i->first<<": "<<i->second<<endl;
+//   }
+
+//   //alter
+//   umap2[1] = "One";  // works on the video, but not here
+//   for(unordered_map<int, string>::iterator i = umap2.begin(); i!=umap2.end(); i++){
+//     cout<<i->first<<": "<<i->second<<endl;
+//   }
 
   //insert - pair<int, str>(1,"") or make_pair(1,"")
 
@@ -423,6 +423,6 @@ int main(){
   
   
   
-}
+// }
 
 
