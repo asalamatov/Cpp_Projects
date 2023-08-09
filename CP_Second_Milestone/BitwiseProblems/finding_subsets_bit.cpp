@@ -1,18 +1,18 @@
-#include<bits/stdc++.h>
-
+#include<iostream>
+#include<cstring>
 using namespace std;
 
-void overlayNumber(char[] arr, int number){
+void overlayNumber(char arr[], int number){
     int j = 0;
 
     while( number > 0){
         int last_bit = number&1;
         if(last_bit)
-            cout << arr[j]<<endl;
+            cout << arr[j];
         j++;
         number >>= 1;
     }
-
+    cout << endl;
 }
 
 void generateAllSubsequences(char arr[]){
@@ -30,6 +30,6 @@ int main()
     char arr[10000];
     cin>>arr;
     generateAllSubsequences(arr);
-    cout << endl;
+    
     return 0;
 }
