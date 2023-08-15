@@ -1,8 +1,10 @@
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
+//#include<bits/stdc++.h>
 
 using namespace std;
 
-int tsp(vector<vector<int>>dist, int setOfCities, int city, int n){
+int tsp(vector<vector<int> >dist, int setOfCities, int city, int n){
     if (setOfCities == ((1<<n) - 1)){
         return dist[city][0];
     }
@@ -22,7 +24,7 @@ int tsp(vector<vector<int>>dist, int setOfCities, int city, int n){
 
 int main()
 {
-    vector<vector<int>> dist = {
+    vector<vector<int> > dist = {
         {0,20,42,25},
         {20,0,30,34},
         {42,30,0,10},
